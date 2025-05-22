@@ -89,6 +89,60 @@ const Contact = () => {
             </div>
           </div>
           
+         
+                
+                <div>
+                  <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">Subject</label>
+                  <input 
+                    type="text" 
+                    id="subject" 
+                    required 
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-shen-blue"
+                  />
+                </div>
+                
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                  <textarea 
+                    id="message" 
+                    rows={5} 
+                    required 
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-shen-blue resize-none"
+                  ></textarea>
+                </div>
+                
+                <div>
+                  <button 
+                    type="submit" 
+                    disabled={formStatus === 'submitting'}
+                    className={cn(
+                      "w-full px-6 py-3 bg-shen-blue text-white rounded-md font-medium flex items-center justify-center",
+                      formStatus === 'submitting' ? "opacity-70 cursor-not-allowed" : "hover:bg-shen-navy transition-colors"
+                    )}
+                  >
+                    {formStatus === 'submitting' ? (
+                      <>Sending...</>
+                    ) : (
+                      <>
+                        Send Message <Send size={18} className="ml-2" />
+                      </>
+                    )}
+                  </button>
+                  
+                  {formStatus === 'submitted' && (
+                    <p className="text-green-600 mt-4 text-center animate-fade-in">
+                      Thank you! Your message has been sent successfully.
+                    </p>
+                  )}
+                  
+                  {formStatus === 'error' && (
+                    <p className="text-red-600 mt-4 text-center animate-fade-in">
+                      There was an error sending your message. Please try again.
+                    </p>
+                  )}
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>
