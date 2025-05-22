@@ -1,5 +1,6 @@
 
 import { Phone, Mail, MapPin, MessageSquare } from 'lucide-react';
+import Map from './Map';
 
 const Contact = () => {
   return (
@@ -76,18 +77,23 @@ const Contact = () => {
           
           <div className="w-full lg:w-1/2">
             <div className="h-full rounded-lg overflow-hidden shadow-md">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15872.615456095274!2d80.41247011745898!3d5.973976400000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae138d151538e6d%3A0xaa446ab9d8a3b37d!2sWeligama!5e0!3m2!1sen!2slk!4v1621498089101!5m2!1sen!2slk" 
-                width="100%" 
-                height="100%" 
-                style={{ border: 0, minHeight: "400px" }} 
-                allowFullScreen 
-                loading="lazy"
-                title="Shen Taxi & Tours Location"
-              ></iframe>
+              <Map />
             </div>
           </div>
         </div>
+      </div>
+      
+      {/* Sticky WhatsApp button for mobile */}
+      <div className="fixed bottom-6 right-6 md:hidden z-40">
+        <a 
+          href="https://wa.me/94769943935" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center justify-center bg-shen-blue hover:bg-shen-navy text-white p-4 rounded-full shadow-lg transition-colors"
+          aria-label="Contact via WhatsApp"
+        >
+          <MessageSquare size={24} />
+        </a>
       </div>
     </section>
   );

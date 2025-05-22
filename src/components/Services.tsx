@@ -132,7 +132,8 @@ const Services = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* Mobile view - Cards */}
+        <div className="md:hidden grid grid-cols-1 gap-6">
           {services.map((service) => (
             <div 
               key={service.id} 
@@ -190,6 +191,52 @@ const Services = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Desktop view - Horizontal list */}
+        <div className="hidden md:block">
+          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="bg-shen-navy text-white px-6 py-4 flex">
+              <div className="w-1/3 font-semibold">Service</div>
+              <div className="w-1/6 font-semibold text-center">Duration</div>
+              <div className="w-1/6 font-semibold text-center">Price</div>
+              <div className="w-1/3 font-semibold">Description</div>
+            </div>
+            
+            {services.map((service, index) => (
+              <div 
+                key={service.id}
+                className={cn(
+                  "border-b border-gray-100 hover:bg-shen-light/50 transition-colors",
+                  index === services.length - 1 ? "border-b-0" : ""
+                )}
+              >
+                <div className="px-6 py-4 flex items-center">
+                  <div className="w-1/3 flex items-center">
+                    <div className="p-2 bg-shen-light rounded-full mr-3">
+                      {service.icon}
+                    </div>
+                    <span className="font-medium text-shen-navy">{service.title}</span>
+                  </div>
+                  <div className="w-1/6 text-center text-gray-600">{service.duration}</div>
+                  <div className="w-1/6 text-center font-medium text-shen-blue">{service.price}</div>
+                  <div className="w-1/3 text-gray-600 pr-2">{service.description}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          
+          <div className="mt-6 flex justify-end">
+            <a 
+              href="https://wa.me/94769943935" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-shen-blue text-white hover:bg-shen-navy px-6 py-3 rounded-md font-medium transition-all inline-flex items-center"
+            >
+              <Phone size={18} className="mr-2" />
+              Book via WhatsApp
+            </a>
+          </div>
         </div>
         
         <div className="mt-12 bg-white p-6 rounded-lg shadow-md">

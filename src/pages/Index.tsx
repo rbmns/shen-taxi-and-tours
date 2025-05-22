@@ -10,8 +10,11 @@ import Footer from '@/components/Footer';
 
 const Index = () => {
   useEffect(() => {
-    // Update document title
-    document.title = "Shen Taxi & Tours | Sri Lanka";
+    // Update document title with SEO optimized title
+    document.title = "Shen Taxi & Tours | Reliable Transport Services in South Sri Lanka";
+    
+    // Scroll to top when page loads
+    window.scrollTo(0, 0);
   }, []);
 
   return (

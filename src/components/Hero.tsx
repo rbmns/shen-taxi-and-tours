@@ -14,7 +14,7 @@ const Hero = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/lovable-uploads/d44316f5-e25d-478a-aa01-e3be435f8e81.png" 
+          src="/lovable-uploads/156caf17-b601-40ce-80c6-2c883a903c48.png" 
           alt="Taxi Service in Sri Lanka" 
           className="w-full h-full object-cover object-center" 
         />
@@ -23,6 +23,13 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 md:px-6 z-10 text-center">
         <div className="animate-fade-in">
+          <div className="flex justify-center mb-6">
+            <img 
+              src="/lovable-uploads/2373adcd-1111-46a8-9ffa-4bd59efd3cd9.png" 
+              alt="Shen Taxi & Tours Logo" 
+              className="h-24 md:h-32"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">Shen Taxi & Tours</h1>
           <p className="text-xl md:text-2xl text-white mb-8 italic drop-shadow-md max-w-2xl mx-auto">
             "Come as a Guest, Leave as a Friend"
