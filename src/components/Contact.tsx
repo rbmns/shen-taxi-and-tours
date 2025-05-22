@@ -61,17 +61,6 @@ const Contact = () => {
                     <p className="text-gray-600">+94 76 994 3935</p>
                   </div>
                 </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-shen-blue p-3 rounded-full text-white mr-4">
-                    <Mail size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-shen-navy">Email</h4>
-                    <p className="text-gray-600">shen@shentaxi.com</p>
-                  </div>
-                </div>
-                
                 <div className="flex items-start">
                   <div className="bg-shen-blue p-3 rounded-full text-white mr-4">
                     <MapPin size={20} />
