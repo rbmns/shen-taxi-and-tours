@@ -15,7 +15,7 @@ const Footer = () => {
               className="h-16 mb-4"
             />
             <p className="text-gray-300 max-w-md mb-4">
-              "Come as a Guest, Leave as a Friend" - Your trusted transportation and tour service in South Sri Lanka.
+              Your trusted transportation and tour service in South Sri Lanka.
             </p>
             <div className="flex space-x-4">
               <a 
