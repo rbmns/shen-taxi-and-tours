@@ -23,13 +23,6 @@ const Hero = () => {
       
       <div className="container mx-auto px-4 md:px-6 z-10 text-center">
         <div className="animate-fade-in">
-          <div className="flex justify-center mb-6">
-            <img 
-              src="/lovable-uploads/e6354eb5-64ef-490e-ad2b-4a3585f5968b.png" 
-              alt="Shen Taxi & Tours Logo" 
-              className="h-24 md:h-32"
-            />
-          </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">Shen Taxi & Tours</h1>
           <p className="text-xl md:text-2xl text-white mb-8 italic drop-shadow-md max-w-2xl mx-auto">
             Your best taxi service in Sri Lanka

@@ -6,34 +6,34 @@ const Gallery = () => {
 
   const images = [
     {
-      src: "/lovable-uploads/156caf17-b601-40ce-80c6-2c883a903c48.png",
+      src: "/lovable-uploads/025ae8f3-6863-43d5-81fb-c144303369bb.png",
       alt: "Shen Taxi on a scenic road in Sri Lanka",
-      caption: "Travel in comfort along Sri Lanka's beautiful roads"
+      caption: "Travel in Comfort"
     },
     {
       src: "/lovable-uploads/c668849a-32e7-4b7b-8848-71d21dc8cf47.png",
       alt: "Tourists with Shen Taxi near an elephant",
-      caption: "Wildlife spotting tours with Shen Taxi"
+      caption: "Wildlife Spotting Tours"
     },
     {
       src: "/lovable-uploads/2373adcd-1111-46a8-9ffa-4bd59efd3cd9.png",
       alt: "Shen Taxi logo with Nine Arch Bridge in Ella",
-      caption: "Visit the famous Nine Arch Bridge in Ella"
+      caption: "Famous Nine Arch Bridge"
     },
     {
       src: "/lovable-uploads/80a2bce6-10f7-421c-8b06-7d8898a04a04.png",
       alt: "Tourists with Shen Taxi at a waterfall",
-      caption: "Explore beautiful waterfalls with our tours"
+      caption: "Beautiful Waterfalls"
     },
     {
       src: "/lovable-uploads/96492552-a806-4ba0-b8a5-2ced2529b79c.png",
       alt: "Leopard in Yala National Park",
-      caption: "Wildlife safaris to spot leopards at Yala National Park"
+      caption: "Wildlife Safaris"
     },
     {
       src: "/lovable-uploads/24c052b3-e1a6-46e6-9d93-9fc8e3e9988e.png",
       alt: "Beautiful beach in South Sri Lanka",
-      caption: "Visit stunning beaches around South Sri Lanka"
+      caption: "Stunning Beaches"
     },
   ];
 
@@ -80,9 +80,13 @@ const Gallery = () => {
                   alt={image.alt} 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-shen-navy/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                <div className="absolute inset-0 bg-gradient-to-t from-shen-navy/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end md:visible hidden">
                   <p className="text-white p-4 font-medium">{image.caption}</p>
                 </div>
+              </div>
+              {/* Caption visible on mobile */}
+              <div className="py-3 px-4 text-center bg-white md:hidden">
+                <p className="font-medium text-shen-navy">{image.caption}</p>
               </div>
             </div>
           ))}
