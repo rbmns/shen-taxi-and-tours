@@ -43,13 +43,8 @@ const Contact = () => {
               
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="bg-shen-blue p-3 rounded-full text-white mr-4">
-                    <Phone size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-shen-navy">Phone</h4>
-                    <p className="text-gray-600">+94 76 994 3935</p>
-                  </div>
+                 
+                
                 </div>
                 
                 <div className="flex items-start">
