@@ -25,14 +25,14 @@ const Hero = () => {
         <div className="animate-fade-in">
           <div className="flex justify-center mb-6">
             <img 
-              src="/lovable-uploads/2373adcd-1111-46a8-9ffa-4bd59efd3cd9.png" 
+              src="/lovable-uploads/e6354eb5-64ef-490e-ad2b-4a3585f5968b.png" 
               alt="Shen Taxi & Tours Logo" 
               className="h-24 md:h-32"
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">Shen Taxi & Tours</h1>
           <p className="text-xl md:text-2xl text-white mb-8 italic drop-shadow-md max-w-2xl mx-auto">
-            "Come as a Guest, Leave as a Friend"
+            Your best taxi service in Sri Lanka
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
             <a 

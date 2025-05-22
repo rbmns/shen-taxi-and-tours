@@ -10,7 +10,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between mb-8">
           <div className="mb-8 md:mb-0">
             <img 
-              src="/lovable-uploads/06b70267-40b5-4fe1-98c2-e9270aad529d.png" 
+              src="/lovable-uploads/e6354eb5-64ef-490e-ad2b-4a3585f5968b.png" 
               alt="Shen Taxi & Tours Logo" 
               className="h-16 mb-4"
             />

@@ -8,8 +8,8 @@ const About = () => {
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="w-full lg:w-1/2">
             <img 
-              src="https://images.unsplash.com/photo-1563287996-71ff4bcef610?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" 
-              alt="Beautiful Sri Lanka" 
+              src="/lovable-uploads/d1662dc2-9f02-4ac7-9d24-afd9fed4ba92.png" 
+              alt="Shen Taxi & Tours Driver with Car" 
               className="rounded-lg shadow-xl w-full h-auto object-cover"
             />
           </div>

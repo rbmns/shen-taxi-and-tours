@@ -83,8 +83,8 @@ const Contact = () => {
         </div>
       </div>
       
-      {/* Sticky WhatsApp button for mobile */}
-      <div className="fixed bottom-6 right-6 md:hidden z-40">
+      {/* Sticky WhatsApp button - visible on both desktop and mobile */}
+      <div className="fixed bottom-6 right-6 z-40">
         <a 
           href="https://wa.me/94769943935" 
           target="_blank" 

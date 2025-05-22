@@ -37,7 +37,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/06b70267-40b5-4fe1-98c2-e9270aad529d.png" 
+              src="/lovable-uploads/e6354eb5-64ef-490e-ad2b-4a3585f5968b.png" 
               alt="Shen Taxi & Tours Logo" 
               className="h-12 md:h-16"
             />
