@@ -25,7 +25,7 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">Shen Taxi & Tours</h1>
           <p className="text-xl md:text-2xl text-white mb-8 italic drop-shadow-md max-w-2xl mx-auto">
-            Your best taxi service in Sri Lanka
+            Come as a Guest, Leave as a Friend
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
             <a 
