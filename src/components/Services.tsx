@@ -1,6 +1,5 @@
-
 import { useState } from 'react';
-import { Taxi, Car, Scooter, Home, Phone, ChevronDown, ChevronUp, Navigation, Map, Bike } from 'lucide-react';
+import { Car, Home, Phone, ChevronDown, ChevronUp, Navigation, Map, Bike } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 type Service = {
@@ -27,7 +26,7 @@ const Services = () => {
     {
       id: 1,
       title: "Taxi - Book a ride",
-      icon: <Taxi className="text-shen-blue" />,
+      icon: <Car className="text-shen-blue" />,
       duration: "30 mins",
       price: "Rs 3,000",
       description: "Quick transportation within the area"
@@ -43,7 +42,7 @@ const Services = () => {
     {
       id: 3,
       title: "Taxi - Weligama to Ella",
-      icon: <Taxi className="text-shen-blue" />,
+      icon: <Car className="text-shen-blue" />,
       duration: "2 hrs 30 mins",
       price: "Rs 22,000",
       description: "Scenic journey to Ella"
@@ -51,7 +50,7 @@ const Services = () => {
     {
       id: 4,
       title: "Taxi - Weligama to Galle",
-      icon: <Taxi className="text-shen-blue" />,
+      icon: <Car className="text-shen-blue" />,
       duration: "1 hr",
       price: "Rs 8,000",
       description: "Visit historic Galle Fort"
@@ -59,7 +58,7 @@ const Services = () => {
     {
       id: 5,
       title: "Taxi - Weligama to Yala",
-      icon: <Taxi className="text-shen-blue" />,
+      icon: <Car className="text-shen-blue" />,
       duration: "1 hr 20 mins",
       price: "Rs 18,000",
       description: "Travel to Yala National Park"
@@ -67,7 +66,7 @@ const Services = () => {
     {
       id: 6,
       title: "Taxi - Weligama to Udawalawa",
-      icon: <Taxi className="text-shen-blue" />,
+      icon: <Car className="text-shen-blue" />,
       duration: "50 mins",
       price: "Rs 16,000",
       description: "Visit Udawalawa National Park"
@@ -75,7 +74,7 @@ const Services = () => {
     {
       id: 7,
       title: "Rent a scooter",
-      icon: <Scooter className="text-shen-blue" />,
+      icon: <Bike className="text-shen-blue" />,
       duration: "± per day",
       price: "Rs 2,500",
       description: "Explore Sri Lanka at your own pace"

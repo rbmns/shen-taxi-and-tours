@@ -1,6 +1,5 @@
-
 import { useState, useRef } from 'react';
-import { Phone, Mail, MapPin, Send, WhatsApp } from 'lucide-react';
+import { Phone, Mail, MapPin, Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import Map from './Map';
 
@@ -54,8 +53,8 @@ const Contact = () => {
                 </div>
                 
                 <div className="flex items-start">
-                  <div className="bg-shen-blue p-3 rounded-full text-white mr-4">
-                    <WhatsApp size={20} />
+                  <div className="bg-green-500 p-3 rounded-full text-white mr-4">
+                    <Phone size={20} />
                   </div>
                   <div>
                     <h4 className="font-medium text-shen-navy">WhatsApp</h4>
@@ -173,7 +172,7 @@ const Contact = () => {
         </div>
       </div>
       
-      {/* Sticky WhatsApp button with WhatsApp icon */}
+      {/* Sticky WhatsApp button with icon */}
       <div className="fixed bottom-6 right-6 z-40">
         <a 
           href="https://wa.me/94769943935" 
@@ -183,7 +182,7 @@ const Contact = () => {
           aria-label="Contact us on WhatsApp"
           title="Contact us on WhatsApp"
         >
-          <WhatsApp size={28} />
+          <Phone size={28} />
         </a>
       </div>
     </section>
