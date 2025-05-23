@@ -27,7 +27,7 @@ const Footer = () => {
                 <Phone size={20} />
               </a>
               <a 
-                href="https://maps.app.goo.gl/ABC123" 
+                href="https://maps.app.goo.gl/q1nMmhqAv28vtBow6" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-shen-blue transition"
