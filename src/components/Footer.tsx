@@ -77,10 +77,7 @@ const Footer = () => {
             &copy; {currentYear} Shen Taxi & Tours. All rights reserved.
          
           </p>
-          <p>
-          <a href="https://humblestudio.ai/"> 
-              <img src= "https://res.cloudinary.com/dita7stkt/image/upload/v1747991924/Created_by_HumbleStudio_t3sl1f.png"> </a></img>
-            </p>
+       
           
         </div>
       </div>
