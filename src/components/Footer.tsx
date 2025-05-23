@@ -79,7 +79,7 @@ const Footer = () => {
           
           <div className="flex justify-center">
             <a 
-              href="https://humblestudio.ai/" 
+              href="https://humblestudio.ai/?utm_source=shentat&utm_medium=footer&utm_campaign=madebylabel" 
               target="_blank" 
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
