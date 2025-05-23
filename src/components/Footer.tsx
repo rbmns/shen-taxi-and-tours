@@ -75,6 +75,10 @@ const Footer = () => {
         <div className="border-t border-gray-700 pt-6 mt-6">
           <p className="text-center text-gray-400">
             &copy; {currentYear} Shen Taxi & Tours. All rights reserved.
+            <br>
+          <a href="https://humblestudio.ai/"> 
+              <img src= "https://res.cloudinary.com/dita7stkt/image/upload/v1747991924/Created_by_HumbleStudio_t3sl1f.png"> </a></img>
+            </br>
           </p>
         </div>
       </div>
