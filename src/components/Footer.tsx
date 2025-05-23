@@ -85,7 +85,7 @@ const Footer = () => {
               className="hover:opacity-80 transition-opacity"
             >
               <img 
-                src="/lovable-uploads/315836a8-3de0-4cf0-b6e8-f3bf8ebc24cf.png" 
+                src="https://res.cloudinary.com/dita7stkt/image/upload/v1747992550/label_byHS_ob6odi.png" 
                 alt="Made by HumbleStudio.ai" 
                 className="h-8"
               />
