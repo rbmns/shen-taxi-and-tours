@@ -88,14 +88,6 @@ const Services = () => {
       description: "Comfortable villa accommodations"
     },
     {
-      id: 9,
-      title: "Rent a TukTuk",
-      icon: <Car className="text-shen-blue" />,
-      duration: "± per day",
-      price: "Rs 2,200",
-      description: "Experience Sri Lanka like a local"
-    },
-    {
       id: 10,
       title: "Rent a Car",
       icon: <Car className="text-shen-blue" />,
