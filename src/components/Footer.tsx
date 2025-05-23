@@ -87,7 +87,7 @@ const Footer = () => {
               <img 
                 src="https://res.cloudinary.com/dita7stkt/image/upload/v1747992550/label_byHS_ob6odi.png" 
                 alt="Made by HumbleStudio.ai" 
-                className="h-8"
+                className="h-16"
               />
             </a>
           </div>
