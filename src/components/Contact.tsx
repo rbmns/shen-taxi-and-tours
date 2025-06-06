@@ -1,3 +1,4 @@
+
 import { useState, useRef } from 'react';
 import { Phone, Mail, MapPin, Send } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -27,7 +28,7 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-20 bg-white">
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="w-full px-4 md:px-6">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-shen-navy mb-4">Contact Us</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -35,41 +36,34 @@ const Contact = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="max-w-4xl mx-auto">
           {/* Contact Information */}
-          <div>
-            <div className="bg-shen-light rounded-lg shadow-md p-8">
-              <h3 className="text-xl font-bold text-shen-navy mb-6">Reach Us</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-start">
-                 
-                
+          <div className="bg-shen-light rounded-lg shadow-md p-8">
+            <h3 className="text-xl font-bold text-shen-navy mb-6">Reach Us</h3>
+            
+            <div className="space-y-6">
+              <div className="flex items-start">
+                <div className="bg-green-500 p-3 rounded-full text-white mr-4">
+                  <Phone size={20} />
                 </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-green-500 p-3 rounded-full text-white mr-4">
-                    <Phone size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-shen-navy">WhatsApp</h4>
-                    <p className="text-gray-600">+94 76 994 3935</p>
-                  </div>
-                </div>
-                <div className="flex items-start">
-                  <div className="bg-shen-blue p-3 rounded-full text-white mr-4">
-                    <MapPin size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-shen-navy">Address</h4>
-                    <p className="text-gray-600">Weligama, Sri Lanka</p>
-                  </div>
+                <div>
+                  <h4 className="font-medium text-shen-navy">WhatsApp</h4>
+                  <p className="text-gray-600">+94 76 994 3935</p>
                 </div>
               </div>
-              
-              <div className="mt-8">
-                <Map />
+              <div className="flex items-start">
+                <div className="bg-shen-blue p-3 rounded-full text-white mr-4">
+                  <MapPin size={20} />
+                </div>
+                <div>
+                  <h4 className="font-medium text-shen-navy">Address</h4>
+                  <p className="text-gray-600">Weligama, Sri Lanka</p>
+                </div>
               </div>
+            </div>
+            
+            <div className="mt-8">
+              <Map />
             </div>
           </div>
         </div>
