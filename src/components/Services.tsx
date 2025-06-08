@@ -101,7 +101,7 @@ const Services = () => {
           title: "Airport to Arugam Bay",
           icon: <Navigation className="text-shen-blue" />,
           duration: "± 4 hrs",
-          price: "Rs 22,000",
+          price: "Rs 40,000",
           description: "Direct transfer to Arugam Bay"
         },
         {
@@ -117,7 +117,7 @@ const Services = () => {
           title: "Airport to Ella",
           icon: <Navigation className="text-shen-blue" />,
           duration: "± 4 hrs",
-          price: "Rs 22,000",
+          price: "Rs 30,000",
           description: "Direct transfer to Ella"
         }
       ]
@@ -171,7 +171,7 @@ const Services = () => {
           title: "Taxi - Book a tour",
           icon: <Map className="text-shen-blue" />,
           duration: "4 hrs",
-          price: "Rs 15,000",
+          price: "Rs 20,000",
           description: "Customized tours with guide"
         }
       ]
